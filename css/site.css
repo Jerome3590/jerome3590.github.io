@@ -77,6 +77,42 @@ h2 {
   font-size: 0.88rem;
 }
 
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.1rem;
+}
+
+.work-card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+}
+
+.work-card img {
+  display: block;
+  width: 100%;
+  height: 11.5rem;
+  object-fit: cover;
+  object-position: top center;
+  background: #f4f1ea;
+}
+
+.work-meta { padding: 0.85rem 0.95rem 1rem; }
+
+.work-card h3 { margin: 0 0 0.35rem; }
+
+.work-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.work-card:hover h3 { color: var(--accent); }
+
 .pubs {
   list-style: none;
   margin: 0;
