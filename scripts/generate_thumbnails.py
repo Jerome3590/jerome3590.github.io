@@ -48,6 +48,17 @@ def wrap(draw: ImageDraw.ImageDraw, text: str, fnt, width: int) -> list[str]:
 
 PAPERS = [
     {
+        "slug": "ch01-seeking-venue",
+        "kicker": "SEEKING VENUE",
+        "journal": "Systematic Review",
+        "year": "2026",
+        "title": "Explainable AI and Pharmacogenomics for Opioid and Polypharmacy Risk: A Systematic Review",
+        "authors": "R. Jerome Dixon  ·  Elvin T. Price",
+        "blurb": "Literature map of explainable ML and pharmacogenomic features for prescription-drug risk. Next journal to be selected.",
+        "doi": "DOI pending",
+        "accent": "#57534E",
+    },
+    {
         "slug": "cts-70690",
         "kicker": "OPEN ACCESS  ·  ARTICLE",
         "journal": "Clinical and Translational Science",
