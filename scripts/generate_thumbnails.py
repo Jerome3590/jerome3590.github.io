@@ -48,6 +48,17 @@ def wrap(draw: ImageDraw.ImageDraw, text: str, fnt, width: int) -> list[str]:
 
 PAPERS = [
     {
+        "slug": "journal-pending",
+        "kicker": "MANUSCRIPT",
+        "journal": "Journal pending",
+        "year": "2026",
+        "title": "Journal pending",
+        "authors": "Venue and DOI not yet assigned",
+        "blurb": "Unpublished work is listed without a target journal until acceptance.",
+        "doi": "DOI pending",
+        "accent": "#57534E",
+    },
+    {
         "slug": "ch01-seeking-venue",
         "kicker": "SEEKING VENUE",
         "journal": "Systematic Review",
